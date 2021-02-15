@@ -19,7 +19,7 @@
 		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 		      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 		        <li class="nav-item">
-		          <a class="nav-link active" aria-current="page" href="#" style="color:#310707">Home</a>
+		          <a class="nav-link active" aria-current="page" href="index.html" style="color:#310707">Home</a>
 		        </li>
 		        <li class="nav-item">
 		          <a class="nav-link" href="Sobre_Nosotros.html" style="color:#310707">¿Quiénes somos?</a>
@@ -47,38 +47,44 @@
 		  </div>
 		</nav>
   	</header>
-		<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-		  <div class="carousel-indicators">
-		    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-		    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-		    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-		  </div>
-		  <div class="carousel-inner">
-		    <div class="carousel-item active" data-bs-interval="2000">
-		      <img src="src/Logo.jpg" class="d-block w-100" alt="...">
-		      <div class="carousel-caption d-none d-md-block">
-		        <h5>Red River Ganes</h5>
-		        <p>Somos una nueva empresa que </p>
-		      </div>
-		    </div>
-		    <div class="carousel-item" data-bs-interval="2000">
-		      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Unity_Technologies_logo.svg/1280px-Unity_Technologies_logo.svg.png" class="d-block w-100" alt="...">
-		      <div class="carousel-caption d-none d-md-block">
-		        <h5>Desarrollamos nuestros juegos con Unity®</h5>
-		        <p><i>Unity® es un motor de videojuego multiplataforma creado por Unity Technologies.</i></p>
+		<div class="accordion" id="accordionExample">
+			  <div class="accordion-item">
+			    <h2 class="accordion-header" id="headingOne">
+			      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			        Accordion Item #1
+			      </button>
+			    </h2>
+		    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+		      <div class="accordion-body">
+		        <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.<a href="https://unity.com/es">Unity®</a>
 		      </div>
 		    </div>
 		  </div>
-		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
-		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		    <span class="visually-hidden">Previous</span>
-		  </button>
-		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
-		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-		    <span class="visually-hidden">Next</span>
-		  </button>
+		  <div class="accordion-item">
+		    <h2 class="accordion-header" id="headingTwo">
+		      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+		        Accordion Item #2
+		      </button>
+		    </h2>
+		    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+		      <div class="accordion-body">
+		        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+		      </div>
+		    </div>
+		  </div>
+		  <div class="accordion-item">
+		    <h2 class="accordion-header" id="headingThree">
+		      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+		        Accordion Item #3
+		      </button>
+		    </h2>
+		    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+		      <div class="accordion-body">
+		        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+		      </div>
+		    </div>
+		  </div>
 		</div>
-		
 	<footer class="bd-footer p-3 p-md-5 mt-5 bg-light text-center text-sm-start">
 	  <div class="container">
 	    <p class="mb-0">Diseñada por <b>David Egea Hernández</b>. Para la difusión de las actividades desarrolladas por @RedRiverGames.</p>

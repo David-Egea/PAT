@@ -2,9 +2,9 @@
 Repositorio de las practicas PAT
 
 
-Practicas:
-====
+# Practicas:
 
-Práctica 2: https://github.com/David-Egea/PAT/Practica2
 
-Práctica 3: https://github.com/David-Egea/PAT/Practica3
+Práctica 2: https://david-egea.github.io/PAT/Practica2
+
+Práctica 3: https://david-egea.github.io/PAT/Practica3

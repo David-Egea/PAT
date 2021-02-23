@@ -4,7 +4,6 @@ Repositorio de las practicas PAT
 
 # Practicas:
 
+<a href="https://david-egea.github.io/PAT/Practica2">Práctica 2</a>
 
-Práctica 2: <a> href="https://david-egea.github.io/PAT/Practica2"</a>
-
-Práctica 3: https://david-egea.github.io/PAT/Practica3
+<a href="https://david-egea.github.io/PAT/Practica3">Práctica 3</a>
